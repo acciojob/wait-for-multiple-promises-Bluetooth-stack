@@ -1,6 +1,7 @@
 //your JS code here. If required.
 let tbody = document.getElementById("output");
 let initial = document.createElement('tr');
+initial.setAttribute('id', 'loading');
 let load = document.createElement('td');
 load.colSpan = 2;
 load.innerText = "Loading . . ."
