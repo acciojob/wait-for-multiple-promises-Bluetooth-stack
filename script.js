@@ -4,7 +4,7 @@ let initial = document.createElement('tr');
 initial.setAttribute('id', 'loading');
 let load = document.createElement('td');
 load.colSpan = 2;
-load.innerText = "Loading . . ."
+load.innerText = "Loading..."
 initial.appendChild(load);
 tbody.appendChild(initial);
 
